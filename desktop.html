@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/desktop.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <title>משימה 1 </title>
+</head>
+<body onload="AddNotes()">
+    <h1 id="nnnnnnnn" style="margin-top:60px">my task bourd</h1>
+    <div id="filltask">
+        <input id="intsk" placeholder="enter a task"></input>
+        <button id="send" onclick="Add()">הוסף</button>
+        <button id="clear" onclick="clearo()">מחק</button>
+        <input type="datetime-local" id="choosetime" name="choosetime">
+        <label for="choosetime">תאריך ושעת היעד</label> 
+    </div>
+    <div id="readynodes">
+    </div>
+    <script src="js/desktop.js"></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+body {
+    margin: 3% 5%;
+    background-image: url('../images/tile.jpg') ;
+}
+
+#mytask{
+    text-align: center;
+    font-family: cursive;
+
+}
+#filltask{
+align-items: center;
+width: 593px;
+margin:  auto;
+background:transparent url('../images/formbg.jpg') center center ;
+}
+h1 {
+    text-align: center;
+    color: rgb(0, 0, 85);
+}
+#intsk{
+    position: absolute;
+    width: 593px;
+    height: 57px;
+    background: initial;
+    padding-left: 5%;
+    padding-top: 2%;
+}
+#imtsk{
+    position: absolute;
+}
+#send{
+    position: relative;
+    margin-top: 200px;
+}
+#choosetime{
+position: relative;
+width: 174px;
+}
+.wrapTxt{
+    height: 161px;
+    overflow: auto;
+}
+   
+div span{
+    background:transparent url('../images/notebg.png') center center  no-repeat;
+    width: 158px;
+    height: 200px;
+    margin: 55px;
+    flex-wrap: wrap;
+    flex-grow: 25px;
+    
+}
+#readynodes{
+    display: flex;
+    flex: 90px;
+    flex-grow: 25px;
+    flex-wrap: wrap;
+}
+span p{
+    text-align: center; 
+}
+.wraDate{
+    position: absolute;
+    bottom: -160px;
+}
+span div{
+    float: right;
+
+}
+textarea{
+    direction: rtl;
+}
